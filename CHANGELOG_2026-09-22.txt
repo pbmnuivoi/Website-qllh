@@ -1,0 +1,15 @@
+CẬP NHẬT 2026-09-22
+
+1. Góc học sinh → Đánh giá rèn luyện theo lớp & môn:
+   - Điểm hiện tại của từng học sinh có thể bấm để mở Lịch sử cộng/trừ.
+   - Hiển thị ngày, giờ, số điểm cộng/trừ và lý do.
+   - Có tổng điểm đã cộng, tổng điểm đã trừ và điểm hiện tại.
+   - Lịch sử chỉ mở khi người dùng bấm xem; không tự bật bảng lịch sử khi mới vào trang.
+   - Chỉ các giao dịch có delta khác 0 mới được hiển thị.
+
+2. START_SERVER.bat:
+   - Cửa sổ server được khởi động ở chế độ thu nhỏ (minimized) và chạy nền.
+   - Cửa sổ khởi động tự đóng sau khi mở ứng dụng thành công.
+   - Không thay đổi cách lưu CSDL Excel.
+
+3. Dữ liệu CSDL Excel hiện có được giữ nguyên. Không tự xóa hoặc reset dữ liệu rèn luyện khi chạy phiên bản mới.

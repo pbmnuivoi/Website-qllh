@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: school-app-db
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    disk:
+      name: school-app-excel-db
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_FILE
+        value: /var/data/CSDL_EXCEL_TONG.xlsx
+      - key: SEED_DB_FILE
+        value: /opt/render/project/src/db/CSDL_EXCEL_TONG.xlsx
